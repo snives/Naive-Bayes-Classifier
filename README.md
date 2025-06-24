@@ -2,13 +2,16 @@
 
 Demonstrate a Naive Bayes classifier to identify spam email
 
-I demonstrate the use of the Scikit-Learn implementation of Naive Bayes Classifier using the CountVectorizer module to learn the difference between spam and non-spam emails based on a dataset of labeled examples.
+A classic supervised learning task, spam identification, is presented here with a dataset containing emails defined as spam or not spam.  
+We implement a Naive Bayes classifier using Scikit-Learn to construct a model which accurately identifies unseen email as spam or not.
+We obtain a model that is unbiased, efficient, and 99% accurate.
+
 
 ## Features
 
 - Classifies emails as **spam** or **not spam**
 - Trains on labeled text data
-- Uses sklearn Naive Bayes algorithm for classification
+- Uses Naive Bayes algorithm for classification
 - Outputs accuracy and performance metrics
 
 ## Bayes Theorem
